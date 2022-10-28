@@ -1,4 +1,4 @@
 hello-world-configmap:
-    replicaCount: 3
+    replicaCount: 23
     app:
       content: "dev env for dummys"
