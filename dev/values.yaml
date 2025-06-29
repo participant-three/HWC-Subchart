@@ -1,4 +1,4 @@
 hello-world-configmap:
-    replicaCount: 10
+    replicaCount: 2
     app:
       content: "Keep on Deving"
