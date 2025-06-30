@@ -1,4 +1,4 @@
 hello-world-configmap:
-    replicaCount: 20
+    replicaCount: 1
     app:
-      content: "Keep on Deving"
+      content: "Hallo Evert en Hamid"
