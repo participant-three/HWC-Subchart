@@ -1,5 +1,5 @@
 hello-world-configmap:
-  replicaCount: 3
+  replicaCount: 4
   app:
     content: |
       <!DOCTYPE html>
