@@ -1,13 +1,15 @@
 hello-world-configmap:
-    replicaCount: 3
-    app:
-        content: |
-          <!DOCTYPE html>
-          <html>
-          <head>
-            <meta http-equiv="refresh" content="0; url=https://www.nu.nl/">
-          </head>
-          <body>
-            <p>Je wordt doorgestuurd naar <a href="https://www.nu.nl/">example.com</a></p>
-          </body>
-          </html>
+  replicaCount: 3
+  app:
+    content: |
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="0; url=https://www.nu.nl/">
+        <title>Redirect</title>
+      </head>
+      <body>
+        <p>Je wordt doorgestuurd naar <a href="https://www.nu.nl/">nu.nl</a></p>
+      </body>
+      </html>
