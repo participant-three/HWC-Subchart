@@ -1,5 +1,5 @@
 hello-world-configmap:
-  replicaCount: 4
+  replicaCount: 100
   app:
     content: |
       Test Coen
